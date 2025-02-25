@@ -7,7 +7,7 @@ I'm a fake cinephile, but I want to make twitter for movie fans. Especially, mov
 React, Typescript, Vite
 
 ### And I'll use also...
-Tanstack, Lottie, 
+Tanstack, Lottie, Zustand
 
 ### Server
 Even not initailized yet, but will build by Express.js
