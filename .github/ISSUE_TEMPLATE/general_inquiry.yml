@@ -1,0 +1,23 @@
+name: "General Inquiry"
+description: "기타 문의 사항이 있으신가요?"
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: "## ❓ 문의 내용\n궁금한 점을 명확하고 자세히 설명해주세요."
+
+  - type: textarea
+    id: related-info
+    attributes:
+      label: "✅ 관련 정보"
+      description: "관련된 문서나 레퍼런스가 있다면 포함해주세요."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: "📌 추가 정보"
+      description: "기타 참고할 사항이 있다면 적어주세요."
+    validations:
+      required: false
