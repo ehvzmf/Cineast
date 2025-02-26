@@ -1,0 +1,24 @@
+name: "Feature Request"
+description: "새로운 기능을 제안하고 싶으신가요? 여기서 알려주세요."
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: "## 🚀 기능 설명\n추가하고 싶은 기능에 대해 설명해주세요."
+
+  - type: textarea
+    id: implementation-details
+    attributes:
+      label: "✅ 구현 방법"
+      description: "기능의 예상 동작 및 구현 방식에 대해 설명해주세요."
+      placeholder: "1. 해당 기능이 필요한 이유\n2. 예상되는 동작 흐름\n3. 관련된 UI/UX 요소"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-benefits
+    attributes:
+      label: "✨ 기대 효과"
+      description: "이 기능이 추가됨으로써 기대되는 효과를 설명해주세요."
+    validations:
+      required: true
