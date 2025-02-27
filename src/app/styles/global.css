@@ -1,6 +1,10 @@
 /* 전역 스타일 (Tailwind, CSS 변수 등) */
 
 :root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -28,7 +32,8 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  justify-content: center;
+  min-width: 400px;
   min-height: 100vh;
 }
 
