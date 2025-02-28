@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    height: 15vh;
+    background-color: navy;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoWrapper {
+    padding-left: 20px;
+    p {
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+    }
+}
+.profileWrapper {
+    padding-right: 20px;
+}
+.profilePosition {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
