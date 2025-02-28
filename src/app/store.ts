@@ -1,1 +1,1 @@
-// RTK Store 설정정
+// RTK Store 설정

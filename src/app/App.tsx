@@ -1,3 +1,5 @@
+// 삭제 -> 앱 라우터 생성
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "../routes/layout/MainLayout";
 import Home from "../routes/Home";

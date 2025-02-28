@@ -1,9 +1,11 @@
 /* 전역 스타일 (Tailwind, CSS 변수 등) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   max-width: 1280px;
   margin: 0 auto;
-  text-align: center;
   
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -31,8 +33,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  justify-content: center;
   min-width: 400px;
   min-height: 100vh;
 }
