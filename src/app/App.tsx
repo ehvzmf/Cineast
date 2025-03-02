@@ -2,7 +2,7 @@
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "../routes/layout/MainLayout";
-import Home from "../routes/Home";
+import Home from "../pages/Home";
 import Profile from "../routes/Profile";
 import PostDetail from "../routes/post/PostDetail";
 import PostWrite from "../routes/post/PostWrite";
