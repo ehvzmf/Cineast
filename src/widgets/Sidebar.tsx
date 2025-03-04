@@ -8,12 +8,12 @@ import {
     Image,
     Text,
     useDisclosure,
-} from "@chakra-ui/react"
-import { FiLogOut, FiMenu } from "react-icons/fi"
-import Logo from "/assets/images/fastapi-logo.svg"
+} from "@chakra-ui/react";
+import { FiLogOut, FiMenu } from "react-icons/fi";
+import Logo from "/vite.svg";
 
 const Sidebar = () => {
-const { isOpen, onOpen, onClose } = useDisclosure() as any // 타입 문제 해결
+const { isOpen, onOpen, onClose } = useDisclosure() as any
 
 return (
     <>
