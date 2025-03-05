@@ -1,7 +1,3 @@
-// 페이지를 구성하는 독립적인 UI 블록
-// 헤더 (로고, 프로필 메뉴 등)
-// Vanilla CSS 작성 후 디렉터리화 or Tailwind 추가하기 
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from './Header.module.css';
